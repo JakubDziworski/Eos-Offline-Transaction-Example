@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+      "declaration": true,
+      "module": "commonjs",
+      "lib": ["es7", "dom"],
+      "esModuleInterop": true,
+      "target": "es6",
+      "skipLibCheck": true,
+    "noImplicitAny": false,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "paths": {
+          "*": [
+              "node_modules/*",
+              "src/types/*"
+          ]
+      },
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+    "src/tests/**/*"
+  ]
+}
